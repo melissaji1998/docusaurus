@@ -14,7 +14,7 @@ const config: Config = {
   baseUrl: '/',
 
    // Netlify Deployment Config
-   trailingSlash: false, // Disable trailing slash
+  trailingSlash: false, // Disable trailing slash
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -66,13 +66,18 @@ const config: Config = {
   ],
 
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+    },
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'My Site',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'SkidioLabs',
+        src: 'skidiolabs.png',
       },
       items: [
         {
