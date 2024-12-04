@@ -37,8 +37,8 @@ Currently, we offer the following text-to-image models:
 3. sd3
 4. sdxl
 5. sdxl-turbo
-6. sd1.5-realdream
-7. sd1.5
+6. sd1.5
+<!-- 7. sd1.5-realdream -->
 
 To use a specific model, simply change the `"model"` parameter in your request.
 
@@ -225,7 +225,7 @@ Remember, the quality and specificity of your prompt greatly influence the gener
 - All current models are text-to-image (txt2img) only.
 - Different models may have slightly different strengths or specializations. For example:
   - `sdxl-turbo` is optimized for faster generation times.
-  - `sd1.5-realdream` may be particularly good at photorealistic images.
+  <!-- - `sd1.5-realdream` may be particularly good at photorealistic images. -->
   - `flux-schnell` and `flux-dev` are our custom models with unique capabilities.
 
 Experiment with different models to find the one that best suits your specific use case and style preferences.
